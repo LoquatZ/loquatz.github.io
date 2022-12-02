@@ -10,15 +10,15 @@
 
 ### 基础配置
 
-#### 安装 oh-my-zsh
+### 安装 oh-my-zsh
 
-查看系统有几个shell
+> 查看系统有几个shell
 
 ```bash
 cat /etc/shells
 ```
 
->显示
+>以下显示系统所安装的终端
 
 ```bash
 # List of acceptable shells for chpass(1).
@@ -36,17 +36,17 @@ cat /etc/shells
 
 bash是mac中terminal自带的shell，把它换成zsh，这个的功能要多得多。拥有语法高亮，命令行tab补全，自动提示符，显示Git仓库状态等功能。
 
-使用下面命令设置默认shell
+> 使用下面命令设置默认shell
 
 ```bash
 chsh -s /bin/zsh
 ```
 
-#### 安装oh-my-zsh
+
 
 git地址:[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-使用 crul 安装：
+> 使用 crul 安装：
 
 ```bash
 #GitHub源(有科学上网推荐使用)
@@ -57,7 +57,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-#### 主题
+### 主题
 
 安装成功后，用vim ~/.zshrc打开隐藏文件，修改主题为`cypher`（根据自己喜好决定）
     主题在 ~/.oh-my-zsh/themes/ 下
@@ -66,7 +66,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ZSH_THEME="cypher"
 ```
 
-#### 自动提示命令
+### 自动提示命令
 
 当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。
 
@@ -86,7 +86,7 @@ plugins=(zsh-autosuggestions git)
 
 3.重新打开终端窗口。
 
-#### 语法高亮
+### 语法高亮
 
 1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下
 
@@ -104,7 +104,7 @@ plugins=(
 )
 ```
 
-#### Vimrc安装
+### Vimrc安装
 
 1.从git上克隆vimrc到 `~/.vim_runtime`文件夹
 
@@ -120,7 +120,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 > 执行成功显示：Installed the Ultimate Vim configuration successfully! Enjoy :-)
 
-#### 添加on-my-zsh自带插件
+### 添加on-my-zsh自带插件
 
 用 vim  ~/.zshrc 打开文件，下滑找到插件设置命令，默认是 plugins=(git)
 
@@ -139,7 +139,7 @@ plugins=(
 
 > 前往 ~/.oh-my-zsh/plugins 查找你需要的插件加入即可 ，也可以去github上搜索插件
 
-#### 永久设置代理（科学上网）
+### 永久设置代理（科学上网）
 1. 打开.zshrc
 ```bash
 vim .zshrc
@@ -151,7 +151,7 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 ```
 
 
-#### 界面美观设置（根据自己的喜好而定）
+### 界面美观设置（根据自己的喜好而定）
 1. comd + , 打开设置
 2. 设置属性
 ```

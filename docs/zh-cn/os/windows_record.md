@@ -1,4 +1,4 @@
-﻿# Windows 小技巧
+﻿## Windows 小技巧
 
 ### 快捷键
 !> Windows 以及三方软件，无用快捷键太多，导致使用编译器时，大多都被占用
@@ -25,5 +25,4 @@ HKEY_CURRENT_USER\Control Panel\Input Method\Hot Keys\000000\Virtual Key 值修�
 		全半角切换：Shift + Space 【关闭】
 		系统功能快捷键            【关闭】 占用最多的一个
 ```
-
 

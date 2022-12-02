@@ -1,6 +1,7 @@
-# 必备软件
+## 必备软件
 
 ### 火绒（Win）
+
 !> Windows 安全防护的软件、功能模块完全解耦、最好用、最干净、最简洁、没有之一 ！
 > 下载地址[https://www.huorong.cn/](https://www.huorong.cn/)
 
@@ -36,6 +37,7 @@
 >下载地址：[https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 - **Mac 安装**
+
 ```bash
 # 安装
 brew install pyenv
