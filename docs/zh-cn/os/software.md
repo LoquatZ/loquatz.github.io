@@ -7,14 +7,14 @@
 
 ---
 
-### Clash For Windows | v2ray
+### Clash For Windows | v2ray (Win/Mac)
 !> Windows 客户端 VPN
 >下载地址 Clash：[https://github.com/Fndroid/clash_for_windows_pkg/releases](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 >下载地址 v2ray：[https://github.com/v2fly/v2ray-core/tags](https://github.com/v2fly/v2ray-core/tags)
 
 ---
 
-### Chrome
+### Chrome (Win/Mac)
 !> 谷歌浏览器  搭配 VPN 使用更香哦~
 >下载地址：[https://www.google.com/chrome/](https://www.google.com/chrome/)
 
