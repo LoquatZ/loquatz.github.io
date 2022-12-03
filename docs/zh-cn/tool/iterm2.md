@@ -1,8 +1,8 @@
-?>🧰 `iTerm2配置` 使命令行更高效
-
 ### iTerm2 介绍
 
 是一款完全免费的，专为 Mac OS 用户打造的命令行应用。直接在[官网](http://iterm2.com),下载并安装即可。
+
+> 下载地址:[http://iterm2.com](http://iterm2.com)
 
 ### 设置默认终端
 
@@ -10,39 +10,17 @@
 
 ### 基础配置
 
-### 安装 oh-my-zsh
-
-> 查看系统有几个shell
-
-```bash
-cat /etc/shells
-```
-
->以下显示系统所安装的终端
-
-```bash
-# List of acceptable shells for chpass(1).
-# Ftpd will not allow users to connect who are not using
-# one of these shells.
-
-/bin/bash
-/bin/csh
-/bin/dash
-/bin/ksh
-/bin/sh
-/bin/tcsh
-/bin/zsh
-```
-
-bash是mac中terminal自带的shell，把它换成zsh，这个的功能要多得多。拥有语法高亮，命令行tab补全，自动提示符，显示Git仓库状态等功能。
-
-> 使用下面命令设置默认shell
+> 使用`chsh`命令切换`shell`为`zsh`
 
 ```bash
 chsh -s /bin/zsh
 ```
 
+> 具体配置参见 [Mac OS 小技巧 - 终端Shenll](zh-cn/os/macos_record.md?id=终端shell)
 
+!>安装之前一定要备份.`zshrc` ,文件位于 `~/` (用户目录下),`oh-my-zsh`会替换`.zhrc`中的内容，可能会导致您的环境配置丢失，如果没有`.zshrc`文件，或者没有配置`环境变量`，请忽略
+
+### 安装 oh-my-zsh
 
 git地址:[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -60,7 +38,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 主题
 
 安装成功后，用vim ~/.zshrc打开隐藏文件，修改主题为`cypher`（根据自己喜好决定）
-    主题在 ~/.oh-my-zsh/themes/ 下
+    主题在 `~/.oh-my-zsh/themes/` 下
 
 ```bash
 ZSH_THEME="cypher"
@@ -122,7 +100,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 ### 添加on-my-zsh自带插件
 
-用 vim  ~/.zshrc 打开文件，下滑找到插件设置命令，默认是 plugins=(git)
+用 vim  ~/.zshrc 打开文件，下滑找到插件设置属性
 
 ```zsh
 plugins=(
@@ -137,7 +115,7 @@ plugins=(
 )
 ```
 
-> 前往 ~/.oh-my-zsh/plugins 查找你需要的插件加入即可 ，也可以去github上搜索插件
+> 前往 ~/.oh-my-zsh/plugins 查找你需要的插件加入即可 ，也可以去github上搜索插件，像[自动提示命令](#自动提示命令)，[语法高亮](#语法高亮)，clone 到 plugins 目录下，添加引用即可使用
 
 ### 永久设置代理（科学上网）
 1. 打开.zshrc
@@ -158,15 +136,13 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 Appearance -> General
                         -> Theme:Minimal
                         -> Status bar locaiton:Bottom
-
 Profiles
         -> Transparency:20
         -> Blur:20 并打钩
-        -> Text -> Font:14
-        -> Window -> Columns:120
-                  -> Rows:40
+        -> Text    -> Font:14
+        -> Window  -> Columns:120
+                   -> Rows:40
         -> Session -> Status bar enabled:打钩
                    -> Configure Status Bar 选择要显示的小部件
                         -> Auto-Rainbow:Light Colors
-
 ```

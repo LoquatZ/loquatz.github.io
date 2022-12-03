@@ -6,6 +6,7 @@
 - 工具相关
     - [程序员儿的软件](zh-cn/os/software.md)
     - [Windows 小技巧](zh-cn/os/windows_record.md)
+    - [Mac OS 小技巧](zh-cn/os/macos_record.md)
     - [AndroidStido 插件](zh-cn/tool/android_studio.md)
     - [iTerm2 配置](zh-cn/tool/iterm2.md)
 
