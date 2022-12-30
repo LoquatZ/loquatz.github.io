@@ -1,4 +1,4 @@
-?>🧰 `SublimeText配置`
+?> SublimeText配置
 
 ### 安装插件
 1. 快捷键 Mac `Cmod+Shift+P` Win `Ctrl+Shift+P` 调出窗口
