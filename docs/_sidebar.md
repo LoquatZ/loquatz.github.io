@@ -13,6 +13,7 @@
     - [Visual Studio Code](zh-cn/tool/visual_studio_code.md)
     
 - 服务器相关
+    * [Nginx 安装与使用](zh-cn/server/nginx.md)
     * [使用Frp做内网穿透](zh-cn/server/frp.md)
-    <!-- * [banwagonhost](zh-cn/server/bandwagonhost.md) -->
+    * <!-- * [banwagonhost](zh-cn/server/bandwagonhost.md) -->
 
