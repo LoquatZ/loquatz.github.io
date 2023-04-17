@@ -21,7 +21,7 @@
 ## Linux 安装Frp
 
 ```bash
-export FRP_VERSION=0.33.0
+export FRP_VERSION=0.47.0
 sudo mkdir -p /etc/frp
 cd /etc/frp
 sudo wget "https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz"

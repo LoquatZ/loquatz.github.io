@@ -15,5 +15,6 @@
 - 服务器相关
     * [Nginx 安装与使用](zh-cn/server/nginx.md)
     * [使用Frp做内网穿透](zh-cn/server/frp.md)
+    * [Linux命令记录](zh-cn/server/command.md)
     * <!-- * [banwagonhost](zh-cn/server/bandwagonhost.md) -->
 
