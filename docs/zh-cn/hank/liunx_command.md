@@ -41,3 +41,4 @@ journalctl -f -u package
 ```bash
 lsof -i :端口号
 ```
+
