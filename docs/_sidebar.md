@@ -4,7 +4,7 @@
     - [简介](zh-cn/README.md)
 - 常用命令
     - [Android](zh-cn/hank/android_adb_command.md)
-    - [Linux](zh-cn/server/command.md)
+    - [Linux](zh-cn/hank/liunx_command.md)
 - 工具相关
     - [程序员儿的软件](zh-cn/os/software.md)
     - [Windows 小技巧](zh-cn/os/windows_record.md)
